@@ -7,7 +7,7 @@ header{
     background-repeat: no-repeat;
     border-radius: 15px;
     height: 600px;
-    width: 1320px;
+    width: 1080px;
     justify-content: center;
     margin: 50px auto;
     
@@ -66,11 +66,12 @@ header{
 .party{
     background-image: url('/images/Vectorrr.png');
     justify-content: space-between;
+    box-shadow:30px black inset;
     height: 600px;
-    width: 1320px;
+    width: 1080px;
     display: flex;
     color: #ffff;
-    margin:120px 280px;
+    margin:120px auto;
 
 }
 .invitation{
@@ -87,4 +88,214 @@ header{
     color: white;
     font-size: 20px;
     border: none;
+}
+
+.text{
+    color: 070211;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 110px;
+    background-color: #ff000013 ;
+    width: 1080px;
+    height: 480px;
+    margin: 120px auto;
+    border-radius: 16px;
+}
+
+.place p{
+    font-weight: 600;
+    font-size: 32px;
+}
+.place button{
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 8px;
+}
+.offer-heading{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.time{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+.offer-description{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+.upcoming-offers{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin: 120px auto;
+    width: 1080px;
+    height: 463px;
+}
+.upcoming{
+    width: 393px;
+}
+.date{
+    font-weight: 700;
+    font-size: 48px;
+}
+.description{
+    font-weight: 400;
+    font-size: 20px;
+}
+.middle-picture{
+    height: 364px;
+    width: 364px;
+    border-radius: 2px 50%;
+    border-color: #FF0000;
+}
+.sale{
+    text-align: center;
+    width: 1080px;
+    height: 260px;
+    justify-content: center;
+    margin: 120px auto;
+}
+.Holiday-heading{
+    font-weight: 500;
+    font-size: 24px;
+}
+.holiday{
+    font-weight: 900;
+    font-size: 72px;
+}
+.Holiday-description{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+.discount{
+    background-image: url('/images/Rectangle\ 2.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: transparent;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1080px;
+    height: 662px;
+    border: none;
+    border-radius: 10px;
+    gap: 100px;
+}
+.img1{
+    width: 600px;
+    height: 600px;
+    text-align: justify;
+}
+.img2{
+    right: 180;
+    position: absolute;
+    top: 180;
+}
+.portfolio{
+   margin: 120px auto;
+   width: 1080px;
+  
+}
+.portfolio-des h5{
+    font-weight: 500;
+    font-size: 24px;
+}
+.portfolio-des h2{
+    font-weight: 900;
+    font-size: 48px;
+}
+.portfolio-des h6{
+    font-size: 20px;
+    font-weight: 400;
+}   
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.newsletter{
+    background-color: #ff00000a;
+    text-align: center;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 60px 80px;
+    border-radius: 15px;
+}
+.newsletter h1{
+    font-weight: 900;
+    font-size: 48;
+    color: #070211;
+}
+.newsletter h5{
+    font-weight: 400;
+    font-size: 20px;
+    color: #07021136;
+}
+.subscribe{
+    border: none;
+    height: 72px;
+    padding: auto 0 30px;
+    gap: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.subscribe input{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 50px 0px 0px  50px;
+    padding: 24px 56px;
+    
+   
+}
+.btn{
+    background-color: #ff0000;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    padding: 24px 56px;
+}
+/* footer styles */
+footer{
+    background-color: #070211;
+    padding: 60px 80px;
+}
+footer h5{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    display: flex;
+    justify-content: center;
+     gap: 20px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright button{
+    background-color: transparent;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
 }
